@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/mariachavez
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://materechm.github.io
+  * I am mariachavez (https://keybase.io/mariachavez) on keybase.
+  * I have a public key with fingerprint CE7C F4AD 5AA9 DD25 48A3  8B15 AC66 FFCC 3E6C F7F4
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "ce7cf4ad5aa9dd2548a38b15ac66ffcc3e6cf7f4",
+            "host": "keybase.io",
+            "key_id": "ac66ffcc3e6cf7f4",
+            "kid": "01015815bb1321cd2b96516e89ba30d816c696a64c2565b5d9210cc303113f9b6dff0a",
+            "uid": "7d6809c342e4e6eebffbd0eeee578c00",
+            "username": "mariachavez"
+        },
+        "service": {
+            "hostname": "materechm.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1421087761,
+    "expire_in": 157680000,
+    "prev": "ac6eae1e6565db3ccebdeda00269803d801e27ba78ba14b9126b0ec9ba52fdd7",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMIlAnicbZJbSBRRGMfXrCyrNaGb9FLzYIGLzZnZOTOzVGSEUIHdJAm07dxmdzB3
+19lx07atNLpR2eVBupoiGJSLFVEPYlcjyCIsCU2CMrsQihIVRGGdsctT38vhnPP/
+fuf8/3wd01Jd6SkD1oK9yx7tsFI676yucBVem5EZF3CYVgm+uFDKxhbDDAWYFbHM
+kC34BMJUYngRVRDSKZUUr4ZkDQMFEQgNgxCZQWKohlfwCMFw1OngGIyiLNcM8zO+
+8ZuUn/5HXzp2IQIRKBpQMAayBAiVsA4VAJmmYySLVAOQQB0i6CWSAhWsUF0CIueI
+MgCyoWNIDUNEHFcxhlMp1ESdyF6JeRlkDBsGpiLjpagaEUVHGGVWCJUxri5DlolI
+EMXYdiHhEfhFzCTMScEx809kM4uRYFluwLSDFfi3s4gVtsMkvJULgrYdifocgF0V
+cTq2Mez/w/JjM0R5orwjxqyoGQ4JPsCVxDYdOPByN5qqQuARWGXEtJjfdBSKym3w
+ct5hsd/5McQAgzwEimVCGKaMIlGUoK6JMtVEwCQVI1XDCHixDiSIRUZ4iIpkUKoK
+jrvyUFjwyfybKMCRUTMQQnaFxYTE3dvF410p6a6JE8Y5M+FKnzz976SQeNro4nvX
+v1el7H/W/+Z8TlV939KmrkDGLmNh96hUtvlu/GLjoe1ftpypTGxouHW09Wpv9pSb
+zxtB7MNI8ap9B/zlT/Nv1jLjxiUz0vZF++g+NrdzcDBt1uP6YGVPNy0xzg1sfJ6s
++dEQ73e3pA+0uoa3zKlpyB+3ZnqxtTbxtiPna8vUdVbyVXum/ZD2H/EppGDi0IuD
+wfX365oufn7zqfrd6b7hlVl1GQV1O09tunqpcc7pEz1kZNEVT8kFd9Hxzn3dQx0n
+J6X5k0XLD35ry3vf+9r90swYzJy5RExdeW3+ntrxh5v7knnzZhU1Z9d3rZhaOdTY
+vnt/7dnNs7MmPPj5pLk6v7fw8i9d6TXD
+=3ryq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mariachavez
+
+==================================================================
