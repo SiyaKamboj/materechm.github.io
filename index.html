@@ -9,7 +9,7 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script src="js/typed.min.js" type="text/javascript"></script>
-    <!--<script>
+    <script>
     $(function(){
         $("#typed").typed({
             strings: ["Biology","Mathematics","Computer Science","ALS"],
@@ -25,31 +25,13 @@
             $("#typed").typed('reset');
         });
     });
-    </script>-->
-    <script>
-        var text = "The quick fox jumped over the lazy dog.";
-        var charCount = text.length;
-        var currentLetterCount = 0;
-        var speed = 100; // How fast should it type?
-        var $input = $(".some-textbox");
-        
-        function writeLetter() {
-            var currentText = $input.val();
-            var currentLetter = text.charAt(currentLetterCount);
-            currentLetterCount++;
-            $input.val(currentText + currentLetter);
-            if(currentLetterCount == charCount)
-                clearInterval(timerId);
-        }
-        
-        var timerId = setInterval(writeLetter, speed);
     </script>
 </head>
 <div class="outside">
     <body>
         <div class="content">
             <img class="main-img" src="img/me.jpg" />
-            <h1 class="name">Maria is interested in <span id="typed" class="some-textbox"></span>
+            <h1 class="name">Maria is interested in <span id="typed"></span>
             </h1>
             <h3 class="subtext">
                 Currently an intern at
