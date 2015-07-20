@@ -10,21 +10,21 @@
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <script src="js/typed.min.js" type="text/javascript"></script>
     <script>
-    $(function(){
-        $("#typed").typed({
-            strings: ["Biology","Mathematics","Computer Science","ALS"],
-            typeSpeed: 50,
-            backSpeed: 50,
-            backDelay: 750,
-            showCursor: false,
-            loop: true,
-            contentType: 'html', 
-            loopCount: false,
+        $(function(){
+            $("#typed").typed({
+                strings: ["Biology","Mathematics","Computer Science","ALS"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                backDelay: 750,
+                showCursor: false,
+                loop: true,
+                contentType: 'html', 
+                loopCount: false,
+            });
+            $(".reset").click(function(){
+                $("#typed").typed('reset');
+            });
         });
-        $(".reset").click(function(){
-            $("#typed").typed('reset');
-        });
-    });
     </script>
 </head>
 <div class="outside">
