@@ -1,123 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Presentations</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/2-col-portfolio.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <title>Maria Chavez</title>
+    <!-- CSS / Javascript Things -->
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <div id="particles-js"></div>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.min.js"></script>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <meta name="description" content="Personal Page" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="js/typed.min.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+        $("#typed").typed({
+            strings: ["Biology","Mathematics","Computer Science","ALS"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            backDelay: 750,
+            showCursor: false,
+            loop: true,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+        });
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+    });
+    </script>
 </head>
+<div class="outside">
+    <body>
+        <div class="content">
+            <img class="main-img" src="img/me.jpg" />
+            <h1 class="name">Maria is interested in <span id="typed"></span>
+            </h1>
+            <h3 class="subtext">
+                Currently an intern at
+                <a href="http://www.plab.co/"y>Perlstein Lab</a>,
 
-<body>
-
-    <!-- Page Content -->
-    <div class="container">
-
-        <!-- Page Header -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Maria Chavez  </h1>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                    <div class="maria-circular"></div>
-                </div>
-
-            <div class="col-md-4 portfolio-item">
-                <a href="bio.html">
-                    <div class="circular">
-                      <center>
-                        <p>Bio</p>
-                      </center>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-4 portfolio-item">
-        <a href="http://cv.mariachavez.co">
-            <div class="circular">
-              <center>
-                <p>CV</p>
-              </center>
-            </div>
-        </a>
-    </div>
-
-<div class="row">
-    <div class="col-md-4 portfolio-item">
-        <a href="http://notes.mariachavez.co">
-            <div class="circular">
-              <center>
-                <p>Notes</p>
-              </center>
-            </div>
-        </a>
-    </div>
-
-    <div class="col-md-4 portfolio-item">
-        <a href="http://alsnews.com">
-            <div class="circular">
-              <center>
-                <p>Blog</p>
-              </center>
-            </div>
-        </a>
-    </div>
-
-    <div class="col-md-4 portfolio-item">
-        <a href="contact.html">
-            <div class="circular">
-              <center>
-                <p>Contact</p>
-              </center>
-            </div>
-        </a>
-    </div>
-
-
-<hr>
-
-<!-- Footer -->
-<footer>
-    <div class="row">
-        <div class="col-lg-12">
-            <p>Copyright &copy; Maria Chavez 2014</p>
+                <a href="http://www.berkeley.edu/">UC Berkeley</a> '19 intended math and cs double major.
+            </h3>
         </div>
     </div>
-    <!-- /.row -->
-</footer>
-
 </div>
-
-    <!-- jQuery Version 1.11.0 -->
-    <script src="js/jquery-1.11.0.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
+<div id="trianglify">
+    <img src="ignite.jpg" width="100%" height="100%">
+</div>
+<div class="footer">
+    <span class="footer-item"><a target="_blank" href="#">Resume</a></span>
+    <span class="footer-item"><a target="_blank" href="mailto:maria.chavez@berkeley.edu">Email</a></span>
+    <span class="footer-item"><a target="_blank" href="https://github.com/materechm">GitHub</a></span>
+    <span class="footer-item"><a target="_blank" href="https://www.linkedin.com/in/materechm">LinkedIn</a></span>
+    <span class="footer-item"><a target="_blank" href="http://mtc.science/">Blog</a></span>
+</div>
 </body>
-
 </html>
